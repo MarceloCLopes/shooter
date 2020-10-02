@@ -39,4 +39,13 @@ function moveDown() {
   }
 }
 
+//Funcionalidade de tiro
+function fireLaser() {
+  let laser = createLaserElement();
+  playArea.appendChild(laser);
+  moveLaser();
+}
+
+
+
 window.addEventListener('keydown', flyAhip);
