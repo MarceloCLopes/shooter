@@ -17,6 +17,25 @@ body{
   width: 1000px;
 }
 
+.game-instructions{
+  position: relative;
+  color: white;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;  
+}
+
+.start-button{
+  position: relative;
+  color: white;
+  top: 9rem;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;   
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 .player-shooter{
   position: relative;
   height: 70px;
@@ -24,7 +43,15 @@ body{
   left: 20px;
   top: 250px;
 }
-
+/*
+.planet{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 0;
+  top: 330px;
+}
+*/
 .laser{
   position: relative;
   width: 40px;
