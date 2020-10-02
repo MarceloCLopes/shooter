@@ -14,3 +14,15 @@ function flyAhip(event) {
     fireLaser();
   }
 }
+
+//Função de subir
+function moveUp() {
+  let topPosition = getComputedStyle(yourShip).getPropertyValue("top");
+  if (topPositionv === "0px") {
+    return;
+  } else {
+    let position = parseInt(topPosition);
+    position -= 50;
+    yourShip.style.top = `${position}px`;
+  }
+}
